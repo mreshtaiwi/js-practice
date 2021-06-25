@@ -101,5 +101,10 @@ alert("Question five ");
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
-
-
+alert("Question six ");
+    let minutes = Number(prompt("Enter an integer minutes to converts it to seconds "));
+function minTOsec(minute){
+    let result = minute * 60;
+    return `convert ${minute} minutes to seconds =  ${result}`;  
+   }
+   console.log(minTOsec(minutes));
