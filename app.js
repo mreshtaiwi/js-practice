@@ -45,6 +45,16 @@ Sample Output:
 "20 is even"
 */
 
+function oddEven(d){
+if(d/2 !==0 ){
+    console.log(d+' '+'is the odd');
+}else{
+    console.log(d+' '+'is the even');
+}
+}
+for (let i=0;i<=20;i++){
+oddEven(i);
+}
 
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
