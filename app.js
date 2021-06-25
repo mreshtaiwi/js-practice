@@ -14,12 +14,31 @@ function positive_check(n){
 
 }
 
-// positive_check(-5);
+positive_check(-5);
 
 
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
+
+function detect_max(a, b, c){
+  let number1 = a;
+  let number2 = b;
+  let number3 = c;
+
+  if(number1 > number2 && number1 > number3){
+    console.log(number1, ' is the max number.');
+  } else if(number2 > number1 && number2 > number3){
+    console.log(number2, ' is the max number.');
+  } else if (number3 > number1 && number3 > number2){
+    console.log(number3, ' is the max number.');
+  } else {console.log('Check your inputs.');
+  }
+}
+
+
+detect_max(1,5,3);
+
 
 
 /*
