@@ -13,12 +13,28 @@ function posORneg(){
 }
 alert(posORneg());
 
-
-
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
+alert("Question two ");
+function max(){
+    let num1 = Number(prompt("Enter first number "));
+    let num2 = Number( prompt("Enter second number "));
+    let num3 = Number(prompt("Enter third number "));
+      let maxi = 0;
+    if(num1 <= num2 ){
+      maxi = num2;
+    }else {
+        maxi = num1;
+    }
+    if(maxi < num3){
+        maxi=num3;
+    }
 
+    return `The max number is: ${maxi}` ;
+}
+
+console.log(max());
 
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
