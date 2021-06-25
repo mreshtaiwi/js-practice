@@ -84,8 +84,22 @@ num2 = 3
 the sum is 6
 the multiplication is 9
 */
-
-
+alert("Question five ");
+    let num1 = Number(prompt("Enter first number "));
+    let num2 = Number( prompt("Enter second number "));
+    console.log("num1 = " + num1);
+    console.log("num2 = " + num2 );
+  let sumation = function (n1,n2){
+    return "The sum is " + (n1+n2);
+   }
+   let multiply = function (number1,number2){
+       return "The multiplication is " + (number1 * number2);
+   }
+    console.log(sumation(num1,num2));
+    console.log(multiply(num1,num2));
+   
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+
+
