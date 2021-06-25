@@ -1,8 +1,18 @@
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
-
-
+function posORneg(input){
+    let num  = input;
+    if(num >= 0){
+    return `The input ${num} is positive `;
+    }else{
+    return  `The input ${num} is negative`; 
+}
+}
+let number= -10 ;
+console.log(posORneg(number));
+document.write(posORneg(number));
+document.write("<br><hr>");
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
