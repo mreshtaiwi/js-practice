@@ -105,8 +105,8 @@ function sum_multi(a, b){
   let number2= b;
   let sum= number1 + number2;
   let multi= number1 * number2;
-  console.log(`number1= `, number1);
-  console.log(`number2= `, number2);
+  console.log('number1= ', number1);
+  console.log('number2= ', number2);
   console.log('Their sum is ', sum);
   console.log('Their multiplication is ', multi);
 }
@@ -116,3 +116,19 @@ sum_multi(5, 9);
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+
+function minToSec(m){
+  let minutes= m;
+  let seconds= minutes*60;
+
+  if(minutes !== parseInt(minutes) || typeof minutes === 'string'){
+    console.log('Please check your input and try again.');
+  } else {
+    console.log(minutes, ' minutes in seconds is ', seconds);
+  }
+}
+
+minToSec('8');
+minToSec('B');
+minToSec(8.5);
+minToSec(8);
