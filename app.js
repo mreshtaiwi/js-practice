@@ -10,7 +10,7 @@ function checkSign(a){
        }
        else{
         console.log(num +'  is a negative number');
-        let a=Number(prompt(num +'  is a negative number'));
+        alert(num +'  is a negative number');
        }
 }
 
@@ -19,8 +19,26 @@ checkSign(a);
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
+alert('Enter 3 inputs to find the max');
+let b=Number(prompt('first number'));
+let c=Number(prompt('second number'));
+let d=Number(prompt('third number'));
+function max(b,c,d){
+    let num1=b;
+    let num2=c;
+    let num3=d;
+    let max=num1;
+    if(num2>max ){
+max=num2;
+    }
+else if(num3>max){
+max=num3;
+}
+console.log(max +'  is the maximum number');
+alert(max +'  is the maximum number');
+}
 
-
+max(b,c,d);
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
 it will check if the current number is odd or even, and display a message on the console?
