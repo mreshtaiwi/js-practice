@@ -96,18 +96,18 @@ ArrOv(Nums);
 
 
 
-// alert (`calculate the sum of even numbers from 1-100`);
-// let sumEven=0;
-//     for (let i=2; i<=100; i+=2)
-//     {
+alert (`calculate the sum of even numbers from 1-100`);
+let sumEven=0;
+    for (let i=2; i<=100; i+=2)
+    {
         
-//             sumEven+=i;
+            sumEven+=i;
 
         
         
         
-//     }
-//     console.log(sumEven);
+    }
+    console.log(sumEven);
 
 /*
 5- Write a JavaScript program to take 2 numbers from the user and print
