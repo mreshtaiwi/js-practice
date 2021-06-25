@@ -31,7 +31,7 @@ function max(b,c,d){
     if(num2>max ){
 max=num2;
     }
-else if(num3>max){
+ if(num3>max){
 max=num3;
 }
 console.log(max +'  is the maximum number');
@@ -67,7 +67,17 @@ for(let i=0;i<=20;i++){
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
 */
+function sumEven(){
+ let sum=0;
+ for(let i=0;i<=100;i++){
+    if(i%2===0){
+sum+=i;
+    }
+}   
+console.log(" sum of even numbers from 1-100 = "+sum);
 
+}
+sumEven();
 
 /*
 5- Write a JavaScript program to take 2 numbers from the user and print
