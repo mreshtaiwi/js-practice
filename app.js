@@ -97,3 +97,9 @@ sumAndMultiply();
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+
+function convertMinutesToSecodes(minutes){
+ return minutes * 60;
+}
+
+console.log(convertMinutesToSecodes(60));
