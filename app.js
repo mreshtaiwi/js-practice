@@ -1,6 +1,9 @@
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
+
+
+
 function numerType(l) {
     let anynumber = l;
     if (anynumber >= 0) {
@@ -10,6 +13,7 @@ function numerType(l) {
     }
 }
 numerType(10);
+
 
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
