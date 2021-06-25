@@ -4,12 +4,19 @@
 
 
 
+
+
+
 function numerType(l) {
     let anynumber = l;
     if (anynumber >= 0) {
         console.log(anynumber, 'is a positive.');
     } else {
+
+        console.log(anynumber, 'is negative.');
+
         console.log(anynumber, 'is nigative.');
+
     }
 }
 numerType(10);
@@ -18,6 +25,13 @@ numerType(10);
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
+
+
+
+/*
+2- Write a JavaScript program takes 3 input from the user and print the max on the console?
+*/
+
 let num1 = Number(prompt(' enter 1st number'));
 let num2 = Number(prompt('enter  2nd number'));
 let num3 = Number(prompt('enter 3rd number'));
@@ -49,6 +63,20 @@ Sample Output:
 "19 is odd"
 "20 is even"
 */
+
+function numberType() {
+    let messege2 = ' is even.';
+    let messege3 = 'is odd';
+    for (let i = 0; i <= 20; i++) {
+        if (i % 2 == 0) {
+            console.log(i, messege2);
+        } else {
+            console.log(i, messege3);
+        }
+    }
+}
+    numberType();
+
 
 
 /*
