@@ -119,21 +119,21 @@ the sum is 6
 the multiplication is 9
 */
 
-// function TwoNum(num1,num2)
-// {
-//     let Num1 = num1;
-//     let Num2 = num2;
-//     sum=Num1+Num2;
-//     mult=Num1*Num2;
-//     let message1=`the sum is ${sum}`;
-//     let message2=`the multiplication is ${mult}`;
-//     console.log(message1);
-//     console.log(message2);
-// }
-// alert(`Please Enter two number`);
-// let n1=Number(prompt(`Number 2`));
-// let n2=Number(prompt(`Number 1`));
-// TwoNum(n1,n2);
+function TwoNum(num1,num2)
+{
+    let Num1 = num1;
+    let Num2 = num2;
+    sum=Num1+Num2;
+    mult=Num1*Num2;
+    let message1=`the sum is ${sum}`;
+    let message2=`the multiplication is ${mult}`;
+    console.log(message1);
+    console.log(message2);
+}
+alert(`Please Enter two number`);
+let n1=Number(prompt(`Number 2`));
+let n2=Number(prompt(`Number 1`));
+TwoNum(n1,n2);
 
 
 
