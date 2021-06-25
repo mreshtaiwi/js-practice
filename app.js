@@ -18,7 +18,17 @@ let isPositive = function(number){
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
 
+function maxOfThree(a,b,c){
+    if(a >= b ){
+        return a;
+    }else if(b >= c){
+        return b;
+    }else{
+        return c;
+    }
+}
 
+console.log( maxOfThree(158,587,25897));
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
 it will check if the current number is odd or even, and display a message on the console?
