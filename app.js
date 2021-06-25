@@ -100,6 +100,19 @@ the multiplication is 9
 */
 
 
+function sum_multi(a, b){
+  let number1= a;
+  let number2= b;
+  let sum= number1 + number2;
+  let multi= number1 * number2;
+  console.log(`number1= `, number1);
+  console.log(`number2= `, number2);
+  console.log('Their sum is ', sum);
+  console.log('Their multiplication is ', multi);
+}
+
+sum_multi(5, 9);
+
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
