@@ -62,9 +62,9 @@ function parity_check(){
 
   for (let i=0; i<21; i++){
     if (i%2===0){
-      console.log(i, ' is even')
+      console.log(i, ' is even');
     } else {
-      console.log(i, ' is odd')
+      console.log(i, ' is odd');
     }
   }
 }
@@ -77,6 +77,17 @@ parity_check();
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
 */
 
+function even_sum(){
+  let dummy= 0;
+  let i= 0;
+  while(i<=100){
+    dummy= dummy + i;
+    i= i+2;
+  }
+  console.log('The sum of even numbers from 1-100 is ', dummy);
+}
+
+even_sum();
 
 /*
 5- Write a JavaScript program to take 2 numbers from the user and print
