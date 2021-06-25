@@ -1,34 +1,34 @@
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
-let isPositive = function(number){
-    return number >=0 ?true:false;
-    }
-    
-    let number = 5;
-    console.log( isPositive(number));
+let isPositive = function (number) {
+    return number >= 0 ? true : false;
+}
 
-    number = -5;
-    console.log(isPositive(number));
+let number = 5;
+console.log(isPositive(number));
 
-    number = 0;
-    console.log(isPositive(number));
+number = -5;
+console.log(isPositive(number));
+
+number = 0;
+console.log(isPositive(number));
 
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
 
-function maxOfThree(a,b,c){
-    if(a >= b ){
+function maxOfThree(a, b, c) {
+    if (a >= b) {
         return a;
-    }else if(b >= c){
+    } else if (b >= c) {
         return b;
-    }else{
+    } else {
         return c;
     }
 }
 
-console.log( maxOfThree(158,587,25897));
+console.log(maxOfThree(158, 587, 25897));
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
 it will check if the current number is odd or even, and display a message on the console?
@@ -45,6 +45,18 @@ Sample Output:
 "19 is odd"
 "20 is even"
 */
+
+
+
+
+for (let i = 0; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(`${i} is even`);
+    }
+    else {
+        console.log(`${i} is odd`);
+    }
+}
 
 
 /*
