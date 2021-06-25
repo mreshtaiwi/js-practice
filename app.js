@@ -1,12 +1,33 @@
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
-
+function numerType(l) {
+    let anynumber = l;
+    if (anynumber >= 0) {
+        console.log(anynumber, 'is a positive.');
+    } else {
+        console.log(anynumber, 'is nigative.');
+    }
+}
+numerType(10);
 
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
-
+let num1 = Number(prompt(' enter 1st number'));
+let num2 = Number(prompt('enter  2nd number'));
+let num3 = Number(prompt('enter 3rd number'));
+function maxNumber(a, b, c) {
+    let message1 = ' is the max number.';
+    if (num1 > num2 && num1 > num3) {
+        console.log(num2, message1);
+    } else if (num2 > num1 && num2 > num3) {
+        console.log(num2, message1);
+    } else {
+        console.log(num3, message1);
+    }
+}
+maxNumber(num1, num2, num3);
 
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
