@@ -58,6 +58,20 @@ Sample Output:
 "20 is even"
 */
 
+function parity_check(){
+
+  for (let i=0; i<21; i++){
+    if (i%2===0){
+      console.log(i, ' is even')
+    } else {
+      console.log(i, ' is odd')
+    }
+  }
+}
+
+
+parity_check();
+
 
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
