@@ -66,30 +66,30 @@ Sample Output:
 "19 is odd"
 "20 is even"
 */
-// function ArrOv(arrNums=[])
-// {
-//     let ArrNum = arrNums;
-//     for (let i =0; i<20; i++)
-//     {
-//         if (ArrNum[i]%2==1)
-//         {
-//             console.log(`${ArrNum[i]} is odd`) 
-//         }
-//         else{
-//             console.log(`${ArrNum[i]} is even`)
-//         }
-//     }
-// }
+function ArrOv(arrNums=[])
+{
+    let ArrNum = arrNums;
+    for (let i =0; i<20; i++)
+    {
+        if (ArrNum[i]%2==1)
+        {
+            console.log(`${ArrNum[i]} is odd`) 
+        }
+        else{
+            console.log(`${ArrNum[i]} is even`)
+        }
+    }
+}
 
-// let Nums=[];
-// alert (`Even or Odd: Please Enter 20 Number`);
-//     for (let i=1; i<21; i++)
-//     {
-//         Nums[i-1] =Number(prompt(`Number ${i}`)); 
-//     }
+let Nums=[];
+alert (`Even or Odd: Please Enter 20 Number`);
+    for (let i=1; i<21; i++)
+    {
+        Nums[i-1] =Number(prompt(`Number ${i}`)); 
+    }
 
 
-// ArrOv(Nums);
+ArrOv(Nums);
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
 */
