@@ -1,6 +1,20 @@
+'use strict';
+
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
+
+function positive_check(n){
+  let number=n;
+  if(number>=0){
+    console.log(n, ' is a Positive number.');
+  } else {
+    console.log(n, ' is a Negative number.');
+  }
+
+}
+
+// positive_check(-5);
 
 
 /*
