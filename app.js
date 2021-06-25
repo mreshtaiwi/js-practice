@@ -2,11 +2,27 @@
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
 
-
+function numerType(l){
+    let anynumber=l;
+    if (anynumber >= 0){
+        console.log(anynumber,'is a positive.');
+    } else {
+        console.log(anynumber,'is nigative.');
+    }
+}
+numerType(10);
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
-
+function numerType(l) {
+    let anynumber = l;
+    if (anynumber >= 0) {
+        console.log(anynumber, 'is a positive.');
+    } else {
+        console.log(anynumber, 'is nigative.');
+    }
+}
+numerType(10);
 
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
@@ -25,12 +41,28 @@ Sample Output:
 "20 is even"
 */
 
-
+function numerType(l) {
+    let anynumber = l;
+    if (anynumber >= 0) {
+        console.log(anynumber, 'is a positive.');
+    } else {
+        console.log(anynumber, 'is negative.');
+    }
+}
+numerType(10);
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
 */
 
-
+function numerType(l) {
+    let anynumber = l;
+    if (anynumber >= 0) {
+        console.log(anynumber, 'is a positive.');
+    } else {
+        console.log(anynumber, 'is negative.');
+    }
+}
+numerType(10);
 /*
 5- Write a JavaScript program to take 2 numbers from the user and print
 ex:-
