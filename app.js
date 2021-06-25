@@ -3,15 +3,30 @@
 */
 
 
+
+
+
+
 function numerType(l) {
     let anynumber = l;
     if (anynumber >= 0) {
         console.log(anynumber, 'is a positive.');
     } else {
+
         console.log(anynumber, 'is negative.');
+
+        console.log(anynumber, 'is nigative.');
+
     }
 }
 numerType(10);
+
+
+/*
+2- Write a JavaScript program takes 3 input from the user and print the max on the console?
+*/
+
+
 
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
