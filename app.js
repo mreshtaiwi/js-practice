@@ -25,29 +25,29 @@ PosNeg(number);
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
-// function MaxNum (arrNum =[])
-// {
-//     let ArrNum= [];
-//     ArrNum = arrNum;
-//     let big = ArrNum[0];
+function MaxNum (arrNum =[])
+{
+    let ArrNum= [];
+    ArrNum = arrNum;
+    let big = ArrNum[0];
     
-//     for (let i =0; i< ArrNum.length-1; i++)
-//     {
-//         if (ArrNum[i] < ArrNum[i+1])
-//         {
-//             big = ArrNum[i+1];
-//         }
-//     }
-//     let message = ` The Biggest number is ${big}`;
-//     console.log(message);
-// }
-//     alert (`Please Enter 3 Number`);
-//     let Arr=[];
-//     for (let i=1; i<4; i++)
-//     {
-//         Arr[i-1] =Number(prompt(`Number ${i}`)); 
-//     }
-//     MaxNum(Arr);
+    for (let i =0; i< ArrNum.length-1; i++)
+    {
+        if (ArrNum[i] < ArrNum[i+1])
+        {
+            big = ArrNum[i+1];
+        }
+    }
+    let message = ` The Biggest number is ${big}`;
+    console.log(message);
+}
+    alert (`Please Enter 3 Number`);
+    let Arr=[];
+    for (let i=1; i<4; i++)
+    {
+        Arr[i-1] =Number(prompt(`Number ${i}`)); 
+    }
+    MaxNum(Arr);
 
 
 /*
