@@ -52,7 +52,17 @@ Sample Output:
 "19 is odd"
 "20 is even"
 */
-
+let odd=' ';
+let even =' ';
+for(let i=0;i<=20;i++){
+    if(i%2==0){
+        even= i + " is even ";
+        console.log(even);
+    }else{
+        odd= i+" is odd ";
+        console.log(odd);
+    }
+}
 
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
