@@ -48,10 +48,29 @@ function maxNumber(a, b, c) {
 }
 maxNumber(num1, num2, num3);
 
-
+function numerType(l){
+    let anynumber=l;
+    if (anynumber >= 0){
+        console.log(anynumber,'is a positive.');
+    } else {
+        console.log(anynumber,'is nigative.');
+    }
+}
+numerType(10);
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
+
+function numerType(l) {
+    let anynumber = l;
+    if (anynumber >= 0) {
+        console.log(anynumber, 'is a positive.');
+    } else {
+        console.log(anynumber, 'is nigative.');
+    }
+}
+numerType(10);
+
 
 let num1 = Number(prompt(' enter 1st number'));
 let num2 = Number(prompt('enter  2nd number'));
@@ -67,6 +86,7 @@ function maxNumber(a, b, c) {
     }
 }
 maxNumber(num1, num2, num3);
+
 
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
@@ -85,6 +105,30 @@ Sample Output:
 "20 is even"
 */
 
+
+function numerType(l) {
+    let anynumber = l;
+    if (anynumber >= 0) {
+        console.log(anynumber, 'is a positive.');
+    } else {
+        console.log(anynumber, 'is negative.');
+    }
+}
+numerType(10);
+/*
+4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
+*/
+
+function numerType(l) {
+    let anynumber = l;
+    if (anynumber >= 0) {
+        console.log(anynumber, 'is a positive.');
+    } else {
+        console.log(anynumber, 'is negative.');
+    }
+}
+numerType(10);
+=======
 function numberType() {
     let messege2 = ' is even.';
     let messege3 = 'is odd';
@@ -117,6 +161,7 @@ function sumNumber(){
 }
 sumNumber();
 
+
 /*
 5- Write a JavaScript program to take 2 numbers from the user and print
 ex:-
@@ -126,7 +171,17 @@ num2 = 3
 the sum is 6
 the multiplication is 9
 */
-
+let num3=Number(prompt('enter a number'));
+let num4=Number(prompt('enter another number'));
+function multiSum(y,u){
+    let sum3=y+u;
+    let multi=y*u;
+    let msg='the sum is.';
+    let msg2='the multiplication is.';
+    console.log(msg,sum3);
+    console.log(msg2,multi);
+}
+multiSum(num3,num4);
 
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
