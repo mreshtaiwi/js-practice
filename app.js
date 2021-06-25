@@ -105,3 +105,15 @@ sumAndMulti(e,f);
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+
+let g=Number(prompt("Enter minutes to converts it to seconds"));
+
+function minuConverTosec(g){
+    let min=g;
+    let sec=g*60;
+    alert(min+' minutes = '+sec+' seconds');
+    console.log(min+' minutes = '+sec+' seconds');
+    
+}
+
+minuConverTosec(g);
