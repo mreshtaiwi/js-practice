@@ -88,8 +88,20 @@ num2 = 3
 the sum is 6
 the multiplication is 9
 */
+let e=Number(prompt("Enter 2 numbers to find the sum And multiplication / first number is :"));
+let f=Number(prompt("second number is :"));
 
-
+function sumAndMulti(e,f){
+    let num1=e;
+    let num2=f;
+    console.log("num1 = "+num1);
+    console.log("num2 = "+num2);
+let sum=num1+num2;
+console.log("the sum is "+sum);
+let multi=num1*num2;
+console.log("the multiplication is "+multi);
+}
+sumAndMulti(e,f);
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
