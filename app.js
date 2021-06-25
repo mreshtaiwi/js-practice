@@ -8,12 +8,25 @@ function checknum(a){
     {console.log('negative number');}
 }
 let num=Number(prompt("please enter number?"))
-checknum(num)
+ checknum(num)
 
-/*
-2- Write a JavaScript program takes 3 input from the user and print the max on the console?
-*/
 
+// 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
+// */
+function maxMin(a1,b1,c1){
+    if (a1>b1 && a1>c1){
+        console.log(a1+' '+'is the max number');
+    }else if (a1<b1 && b1>c1)
+    {console.log(b1+' '+'is the max number');}
+    else{
+        {console.log(c1+' '+'is the max number');}  
+    }
+
+}
+let num1=Number(prompt("please enter number1?"))
+let num2=Number(prompt("please enter number2?"))
+let num3=Number(prompt("please enter number3?"))
+maxMin(num1,num2,num3)
 
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
