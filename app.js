@@ -80,8 +80,20 @@ num2 = 3
 the sum is 6
 the multiplication is 9
 */
+function  sumAndMultiply(){
+let a = Number(prompt("Enter First Number"));
+let b = Number(prompt("Enter second Number"));
+
+alert(`num1 = ${a}
+num2 = ${b}
+the sum is ${a+b}
+the multiplication is ${a*b}
+`);
 
 
+}
+
+sumAndMultiply();
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
