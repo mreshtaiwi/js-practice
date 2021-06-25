@@ -144,17 +144,17 @@ TwoNum(n1,n2);
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
 
-// function Converts(minutes)
-// {
-//     let froMin = minutes;
-//     let toSec = froMin * 60;
-//     let message = `${froMin} Minutes = ${toSec} Seconds`;
-//     return message;
-// }
-// let re;
-// do{
-//     re = Number(prompt(`Please Enter integer minutes and converts it to seconds.`));
-//     check=Number.isInteger(re);
-// }
-// while(!check)
-// Converts(re);
+function Converts(minutes)
+{
+    let froMin = minutes;
+    let toSec = froMin * 60;
+    let message = `${froMin} Minutes = ${toSec} Seconds`;
+    return message;
+}
+let re;
+do{
+    re = Number(prompt(`Please Enter integer minutes and converts it to seconds.`));
+    check=Number.isInteger(re);
+}
+while(!check)
+Converts(re);
