@@ -129,13 +129,13 @@ sumAndmulti();
 
 
 // 6- Write a function that takes an integer minutes and converts it to seconds.
-// function convErt(){
-// let min=Number(prompt('enter minutes'));
-// min*=60;
-// console.log(min);
+function convErt(){
+let min=Number(prompt('enter minutes'));
+min*=60;
+console.log(min);
 
 
 
 
-// }
-// convErt();
+}
+convErt();
