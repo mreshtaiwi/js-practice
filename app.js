@@ -82,7 +82,25 @@ the sum is 6
 the multiplication is 9
 */
 
+let num0=Number(prompt('enter a number'));
+let num4=Number(prompt('enter another number'));
+function multiSum(y,u){
+    let sum3=y+u;
+    let multi=y*u;
+    let msg='the sum is.';
+    let msg2='the multiplication is.';
+    console.log(msg,sum3);
+    console.log(msg2,multi);
+}
+multiSum(num0,num4);
 
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+function minutesNum(m){
+    let min=parseInt(m);
+    let second=min*60;
+    let msg3='the second=.';
+    console.log(msg3,second);
+}
+minutesNum(9);
