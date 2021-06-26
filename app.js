@@ -86,22 +86,22 @@ oddOreven();
 
 
 // 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
-// function summEven(){
-//     let sum=0;
+function summEven(){
+    let sum=0;
    
-//     for(var i=0;i<=100;i++){
-// if (i%2==0){
-//     sum+=i
-// }
+    for(var i=0;i<=100;i++){
+if (i%2==0){
+    sum+=i
+}
 
 
 
-// }
+}
 
-// console.log(sum);
+console.log(sum);
 
-// }
-// summEven();
+}
+summEven();
 
 // 5- Write a JavaScript program to take 2 numbers from the user and print
 // ex:-
