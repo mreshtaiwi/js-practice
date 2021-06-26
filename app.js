@@ -1,6 +1,15 @@
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
+let input=Number(prompt("Please, Enter a number:"));
+if (input>=0){
+    console.log("The Number is Positive");
+    alert("The Number is Positive");
+}else if (input<0){
+    console.log("The Number is Negative");
+    alert("The Number is Negative");
+}
+    
 
 
 /*
