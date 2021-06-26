@@ -13,7 +13,7 @@ let num=Number(prompt("please enter number?"))
 
 // 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 // */
-function maxMin(a1,b1,c1){
+ function maxMin(a1,b1,c1){
     if (a1>b1 && a1>c1){
         console.log(a1+' '+'is the max number');
     }else if (a1<b1 && b1>c1)
@@ -47,9 +47,9 @@ Sample Output:
 
 function oddEven(d){
 if(d/2 !==0 ){
-    console.log(d+' '+'is the odd');
+    console.log(d+' '+'is odd');
 }else{
-    console.log(d+' '+'is the even');
+    console.log(d+' '+'is even');
 }
 }
 for (let i=0;i<=20;i++){
@@ -60,7 +60,18 @@ oddEven(i);
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
 */
 
+let co=0;
+function sumation(b2){
 
+    if(b2%2 === 0){
+co=co+b2;
+ }}
+
+for(let z=1;z<=100;z++){
+
+    sumation(z);
+}
+console.log(co+" =sumation for even number 1-100");
 /*
 5- Write a JavaScript program to take 2 numbers from the user and print
 ex:-
