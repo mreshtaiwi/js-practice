@@ -111,20 +111,20 @@ summEven();
 // the sum is 6
 // the multiplication is 9
 
-// function sumAndmulti(){
-// let num1=Number(prompt('enter first Number'));
-// let num2=Number(prompt('enter seconed Number'));
-// let sum=num1+num2;
-// console.log(sum);
-// let multi=num1*num2;
-// console.log(multi);
+function sumAndmulti(){
+let num1=Number(prompt('enter first Number'));
+let num2=Number(prompt('enter seconed Number'));
+let sum=num1+num2;
+console.log(sum);
+let multi=num1*num2;
+console.log(multi);
 
 
 
 
 
-// }
-// sumAndmulti();
+}
+sumAndmulti();
 
 
 
