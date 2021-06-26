@@ -17,25 +17,25 @@ status(number);
 // 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 
 
-// let num1 = Number(prompt('enter first number'));
+let num1 = Number(prompt('enter first number'));
 
-// let num2 = Number(prompt('enter seconed number'));
-// let num3 = Number(prompt('enter third number'));
+let num2 = Number(prompt('enter seconed number'));
+let num3 = Number(prompt('enter third number'));
 
-// function max (x,y,z) {
+function max (x,y,z) {
    
-// if(x>y && x>z){
-// console.log(x,'is the maximum');
-// }else if (y>x && y>z){
-//     console.log(y,'is the maximum');
-// }else if (z > x && z > y){
-//     console.log(z,'is the maximum');
-// }
-// else {
-//     console.log('equal numbers');
-// }
-// }
-// max(num1,num2,num3)
+if(x>y && x>z){
+console.log(x,'is the maximum');
+}else if (y>x && y>z){
+    console.log(y,'is the maximum');
+}else if (z > x && z > y){
+    console.log(z,'is the maximum');
+}
+else {
+    console.log('equal numbers');
+}
+}
+max(num1,num2,num3)
 
 
 // 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
