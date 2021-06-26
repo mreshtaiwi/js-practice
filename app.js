@@ -9,12 +9,33 @@ if (input>=0){
     console.log("The Number is Negative");
     alert("The Number is Negative");
 }
-    
+
 
 
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
+alert("You need to enter three numbers");
+let numOne=Number(prompt("Please, enter you first number ?"));
+console.log(numOne);
+let numTwo=Number(prompt("Please, enter you second number ?"));
+console.log(numTwo);
+let numThree=Number(prompt("Please, enter you third number ?"));
+console.log(numThree);
+
+if (numOne>numTwo && numOne>numThree){
+    alert("The maximum between the three numbers is "+numOne);
+    console.log("The maximum between the three numbers is "+numOne);
+}else if(numTwo>numOne && numTwo>numThree){
+    alert("The maximum between the three numbers is "+numTwo);
+    console.log("The maximum between the three numbers is "+numTwo);
+} else if(numThree>numOne && numThree>numTwo){
+    alert("The maximum between the three numbers is "+numThree);
+    console.log("The maximum between the three numbers is "+numThree);
+}
+
+
+
 
 
 /*
