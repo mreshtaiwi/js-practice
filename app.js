@@ -12,9 +12,9 @@ if (input>=0){
 
 
 
-/*
-2- Write a JavaScript program takes 3 input from the user and print the max on the console?
-*/
+// /*
+// 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
+// */
 alert("You need to enter three numbers");
 let numOne=Number(prompt("Please, enter you first number ?"));
 console.log(numOne);
@@ -54,6 +54,14 @@ Sample Output:
 "19 is odd"
 "20 is even"
 */
+
+for(let i = 0; i <= 20; i++){
+    if (i%2==0) {
+        console.log(i + " is even number")
+    }else{
+        console.log(i+ " is odd number")
+    }
+}
 
 
 /*
