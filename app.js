@@ -55,19 +55,19 @@ max(num1,num2,num3)
 
 
 
-// function oddOreven(){
-// for(var i =1;i<=20;i++){
-// if (i % 2==0){
+function oddOreven(){
+for(var i =1;i<=20;i++){
+if (i % 2==0){
 
-// console.log(i , 'i Is Even');
-// } else{
-//     console.log(i, 'is odd');
-// }
+console.log(i , 'i Is Even');
+} else{
+    console.log(i, 'is odd');
+}
 
-// }
-// }
+}
+}
 
-// oddOreven();
+oddOreven();
 // function summation (){
 // let sum=0;
 // let i =0;
