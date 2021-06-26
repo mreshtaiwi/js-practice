@@ -78,7 +78,15 @@ num2 = 3
 the sum is 6
 the multiplication is 9
 */
-
+let num4 = Number(prompt('Enter first number'));
+let num5 = Number(prompt('Enter second number'));
+let nums = [num4,num5];
+let sum1 = nums[0]+nums[1];
+let multiply = nums[0]*nums[1];
+console.log('num4 = ' + num4);
+console.log('num5 = ' + num5);
+console.log('The sum is ' + sum1);
+console.log('the multiplication is ' + multiply);
 
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
