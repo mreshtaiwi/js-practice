@@ -82,6 +82,5 @@ console.log("the multiplication is "+num1*num2);
 function minutes () {
     let minute=parseInt(prompt("enter number of minutes"));
     let second=minute*60;
-    console.log(second);
-}
+    console.log(second);}
 minutes();
