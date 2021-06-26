@@ -16,6 +16,20 @@ if(q1 >= 0){
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
 
+let num1=Number(prompt('Please enter first number'));
+let num2=Number(prompt('Please enter second number'));
+let num3=Number(prompt('Please enter third number'));
+let numbers=[num1,num2,num3]
+if(numbers[2] > numbers[0] && numbers[2] >numbers[1]){
+    console.log(numbers[2] +  ' is the max');
+
+} else if(numbers[1] > numbers[0] && numbers[1] >numbers[2]) {
+    console.log(numbers[1] + ' is the max');
+
+} else{
+
+ console.log(numbers[0] + ' is the max');
+}
 
 /*
 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
