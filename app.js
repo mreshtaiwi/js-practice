@@ -91,3 +91,14 @@ console.log('the multiplication is ' + multiply);
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+let min = parseInt(prompt('Enter any minute that crosses your mind'));
+function toSecond(){
+    let num7 = 60;
+    let second=min*num7;
+    console.log(second);
+    return second;
+
+}
+toSecond();
+
+
