@@ -1,7 +1,6 @@
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
-
 function numerType(l) {
     let anynumber = l;
     if (anynumber >= 0) {
@@ -11,6 +10,8 @@ function numerType(l) {
     }
 }
 numerType(10);
+
+
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 */
@@ -61,6 +62,7 @@ function numberType() {
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
 */
+
 function sumNumber(){
     let i = 0;
     let sume = 0;
@@ -81,7 +83,6 @@ num2 = 3
 the sum is 6
 the multiplication is 9
 */
-
 let num0=Number(prompt('enter a number'));
 let num4=Number(prompt('enter another number'));
 function multiSum(y,u){
@@ -94,9 +95,11 @@ function multiSum(y,u){
 }
 multiSum(num0,num4);
 
+
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+
 function minutesNum(m){
     let min=parseInt(m);
     let second=min*60;
@@ -104,3 +107,5 @@ function minutesNum(m){
     console.log(msg3,second);
 }
 minutesNum(9);
+
+
