@@ -1,46 +1,46 @@
 // /*
 // 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 // */
-// function isPositiveOrNegative(){
-// let number = Number(prompt("Enter a number"));
+function isPositiveOrNegative(){
+let number = Number(prompt("Enter a number"));
 
-// if (number > 0)
-// {
-//     console.log("Is positive");
-// }
+if (number > 0)
+{
+    console.log("Is positive");
+}
 
-// else if (number < 0){
-//     console.log("Is negative");
-// }
+else if (number < 0){
+    console.log("Is negative");
+}
 
-// else{
-//     console.log("It is Zero");
-// }
-// }
-// isPositiveOrNegative();
+else{
+    console.log("It is Zero");
+}
+}
+isPositiveOrNegative();
 
 // /*
 // 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
 // */
 
-// function isMax(){
-// let num1 = Number(prompt("Enter first number"));
-// let num2 = Number(prompt("Enter second number"));
-// let num3 = Number(prompt("Enter Third number"));
+function isMax(){
+let num1 = Number(prompt("Enter first number"));
+let num2 = Number(prompt("Enter second number"));
+let num3 = Number(prompt("Enter Third number"));
 
-// if (num1 >= num2 && num1 >= num3){
-//     console.log(`${num1} is the max`)
-// }
-// else if (num2 >= num1 && num2 >= num3){
-//     console.log(`${num2} is the max`)
-// }
-// else{
-//     console.log(`${num3} is the max`)
-// }
-// console.log(`The numbers are ${num1}, ${num2}, ${num3}`)
+if (num1 >= num2 && num1 >= num3){
+    console.log(`${num1} is the max`)
+}
+else if (num2 >= num1 && num2 >= num3){
+    console.log(`${num2} is the max`)
+}
+else{
+    console.log(`${num3} is the max`)
+}
+console.log(`The numbers are ${num1}, ${num2}, ${num3}`)
 
-// }
-// isMax();
+}
+isMax();
 // /*
 // 3- Write a JavaScript for loop that will iterate from 0 to 20. For each iteration,
 // it will check if the current number is odd or even, and display a message on the console?
@@ -57,19 +57,19 @@
 // "19 is odd"
 // "20 is even"
 // */
-// function isOddisEven(){
-//     for (var i = 0; i <= 20; i++){
+function isOddisEven(){
+    for (var i = 0; i <= 20; i++){
 
-//         if (i % 2 === 0 || i === 0){
-//             console.log(i + "  Is even")
-//         }
+        if (i % 2 === 0 || i === 0){
+            console.log(i + "  Is even")
+        }
         
-//         else{
-//             console.log(i + "  Is Odd")
-//         }
-//     }
-// }
-// isOddisEven();
+        else{
+            console.log(i + "  Is Odd")
+        }
+    }
+}
+isOddisEven();
 
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
@@ -115,3 +115,10 @@ sumAndMulti();
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
 */
+
+function convert(minutes) {
+  minutes = Number(prompt("Enter minuts to convert it into seconds"))
+  let seconds = minutes * 60;
+	console.log("minute " + minutes + " = "+seconds+" seconds")
+}
+convert();
