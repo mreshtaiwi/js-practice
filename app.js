@@ -101,6 +101,16 @@ the sum is 6
 the multiplication is 9
 */
 
+function sumAndMulti(){
+  let num1 = Number(prompt("Enter first number"));
+  let num2 = Number(prompt("Enter second number"));
+
+  let sum = num1 + num2;
+  let mult = num1 * num2;
+
+  console.log(`num1 = ${num1} \nnum2 = ${num2} \nthe sum is ${sum} \nthe multiplication is ${mult}`  )
+}
+sumAndMulti();
 
 /*
 6- Write a function that takes an integer minutes and converts it to seconds.
