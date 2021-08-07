@@ -1,7 +1,23 @@
 /*
 1- Write a JavaScript program to know if the input is positive  or negative , " 0 considered as positive "?
 */
+function isPositiveOrNegative(){
+let number = Number(prompt("Enter a number"));
 
+if (number > 0)
+{
+    console.log("Is positive");
+}
+
+else if (number < 0){
+    console.log("Is negative");
+}
+
+else{
+    console.log("It is Zero");
+}
+}
+isPositiveOrNegative();
 
 /*
 2- Write a JavaScript program takes 3 input from the user and print the max on the console?
