@@ -57,6 +57,20 @@ Sample Output:
 "19 is odd"
 "20 is even"
 */
+function isOddisEven(){
+    for (var i = 0; i <= 20; i++){
+
+        if (i % 2 === 0 || i === 0){
+            console.log(i + "  Is even")
+        }
+        
+        else{
+            console.log(i + "  Is Odd")
+        }
+    }
+}
+isOddisEven();
+
 
 
 /*
