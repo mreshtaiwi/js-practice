@@ -71,7 +71,6 @@ function isOddisEven(){
 }
 isOddisEven();
 
-
 /*
 4- Write a JavaScript program to calculate the sum of even numbers from 1-100 ?
 */
